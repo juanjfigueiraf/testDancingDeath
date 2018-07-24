@@ -1,0 +1,4 @@
+services:
+#    dwd_test_asimov.example:
+#        class: DWD\TestAsimovBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

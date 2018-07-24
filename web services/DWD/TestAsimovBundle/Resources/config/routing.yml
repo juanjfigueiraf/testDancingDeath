@@ -1,0 +1,15 @@
+dwd_test_asimov_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DWDTestAsimovBundle:Default:index }
+
+# Paths for search AvailableHours funcionality         
+dwd_test_asimov_view:
+    path:     /date/search/{date}
+    defaults: { _controller: JSCConnectorBundle:Default:getAvailableHours } 
+    methods:    GET
+
+# Paths for add dates funcionality         
+dwd_test_asimov_create:
+    path:     /date/create
+    defaults: { _controller: JSCConnectorBundle:Default:postCreateDates } 
+    methods:    POST
